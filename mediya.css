@@ -1,0 +1,186 @@
+@media (min-width: 1500px) {
+    .slick-img figure img {
+        height: 500px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .location div {
+        width: 500px;
+    }
+}
+
+@media (max-width: 888px) {
+    .location div {
+        width: 450px;
+        font-size: 12px;
+    }
+
+    .location div:nth-child(2) {
+        width: 300px;
+    }
+
+    .nav-links li a {
+        font-size: 15px;
+    }
+
+    .nav_log p {
+        font-size: 12px;
+    }
+
+    .nav_log {
+        margin-left: -12px;
+        padding: 10px;
+        width: 240px;
+    }
+}
+
+@media (max-width: 700px) {
+    .location div {
+        width: 350px;
+        font-size: 10px;
+    }
+
+    .location div:nth-child(2) {
+        width: 220px;
+    }
+
+    .nav-links li a {
+        font-size: 12px;
+    }
+
+    .nav_log p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .location div {
+        display: block;
+    }
+
+    .location div:nth-child(2) {
+        width: 220px;
+    }
+}
+
+@media (max-width:600px) {
+    .location div {
+        width: 350px;
+        font-size: 8px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    .nav-links {
+        justify-content: space-between;
+        align-items: center;
+        padding: auto;
+        display: flex;
+        margin-left: 0px;
+        margin-top: 0px;
+        height: 20%;
+    }
+
+    .nav-links li {
+        font-size: 15px;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #afafaf;
+        top: 60px;
+        left: -200%;
+        z-index: 99;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    .nav-links.active {
+        left: 0;
+        margin-top: 30px;
+        height: 200px;
+        background-color: aqua;
+    }
+
+    a {
+        font-size: 20px;
+        text-align: center;
+        height: 40px;
+    }
+
+
+    .checkbtn {
+        background: #a6afd2;
+        width: 45px;
+        display: block;
+        margin-right: 30px;
+        margin-left: 5%;
+        height: 45px;
+        border-radius: 10px;
+    }
+
+    .fa-solid {
+        margin: 15px;
+        font-size: 20px;
+        display: block;
+    }
+
+    ul {
+        top: 70px;
+    }
+}
+
+
+
+@media (max-width:570px) {
+    ul {
+        top: 70px;
+    }
+    .div_input {
+        display: none;
+    }
+    .L_I {
+        max-width: 100px;
+    }
+    .fa-solid {
+        margin: 10px;
+        font-size: 15px;
+    }
+    .checkbtn {
+        width: 35px;
+        height: 35px;
+    }
+    .logo {
+        max-width: 60px;
+    }
+    .img {
+        width: 35px;
+        height: 35px;
+        margin-left: 5%;
+        border-radius: 10px;
+    }
+    #islam {
+        width: 40px;
+        height: 35px;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width:320px) {
+    .img_islam {
+        width: 154px;
+    }
+
+    .ul_img {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+}
